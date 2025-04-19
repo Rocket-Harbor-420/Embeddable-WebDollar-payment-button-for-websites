@@ -1,0 +1,38 @@
+<!-- webdollar-pay-button.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .webdollar-pay-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+        .webdollar-pay-button.loading {
+            background-color: #FFA500;
+        }
+        .webdollar-pay-button.success {
+            background-color: #008000;
+        }
+        .webdollar-pay-button.error {
+            background-color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <button class="webdollar-pay-button" id="webdollarPayBtn">
+        Pay with WebDollar
+    </button>
+
+    <script src="webdollar-pay-button.js"></script>
+</body>
+</html>
